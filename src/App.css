@@ -79,4 +79,14 @@ h1 {
   color: #fcd5ce;
   text-decoration: line-through;
 }
- 
+
+@media only screen and (max-width: 480px) {
+  .todo-input {
+    width: 60%;
+  }
+
+  .TodoWrapper {
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
